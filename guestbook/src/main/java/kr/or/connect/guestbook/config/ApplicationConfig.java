@@ -8,5 +8,5 @@ import org.springframework.context.annotation.Import;
 @ComponentScan(basePackages = { "kr.or.connect.guestbook.dao", "kr.or.connect.guestbook.service" })
 @Import({ DBConfig.class })
 public class ApplicationConfig {
-
+	
 }
