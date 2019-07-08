@@ -14,8 +14,7 @@ public class GuestbookAdminController {
 
 	@GetMapping(path = "/loginform")
 	public String loginform() {
-		// 따로 수행하는 메소드처리는 없고 그저 /loginform 이라고 url이 들어오면 loginform.jsp파일로 view정보를 보내주는
-		// 역할
+		// 따로 수행하는 메소드처리는 없고 그저 /loginform 이라고 url이 들어오면 loginform.jsp파일로 view정보를 보내주는 역할
 		return "loginform";
 	}
 
